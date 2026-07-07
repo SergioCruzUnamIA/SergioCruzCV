@@ -28,10 +28,14 @@ latest_posts:
 
 [🇪🇸 Leer en español]({{ "/es/" | relative_url }})
 
+<div class="info-card" markdown="1">
 My interests center on Deep Learning and Computer Vision / Object Detection. I'm interested in advancing toward deeper topics such as Image Segmentation, Activity Recognition, and Artificial Intelligence in general. I want to apply Deep Learning to everyday problems in people's lives and improve their quality of life.
 
 Also see: [teaching]({{ "/teaching/" | relative_url }}), [office hours]({{ "/office-hours/" | relative_url }}), and [opportunities for students]({{ "/prospective-students/" | relative_url }}).
 
+</div>
+
+<div class="info-card" markdown="1">
 #### Work Experience
 
 **Hong Kong Applied Science and Technology Research Institute (ASTRI)** — Senior Engineer, June 2021 – November 2023
@@ -42,6 +46,9 @@ With over 2 years of experience as a Senior Engineer at ASTRI, I improved charac
 - Printed character segmentation with PyTorch and YOLO. Reduced image segmentation time by 20%. Improved quality control and reduced training time.
 - Designed and filed a patent for generating personalized data by combining Generative AI and Natural Language Processing (NLP) technologies.
 
+</div>
+
+<div class="info-card" markdown="1">
 #### Education
 
 **City University of Hong Kong**, Hong Kong — Sep 2014 – Mar 2021
@@ -56,6 +63,10 @@ Thesis: _Gait Analysis of the Inferior Articulations of Healthy People and with 
 B.Eng. in Computer Science
 Exchange program at Bishop's University, Sherbrooke, Canada (2010–2011)
 
+</div>
+
+<div class="info-card" markdown="1">
 For any questions or to get in touch, use the following information:
 Phone: 5556225429
 Office: 130, Mathematics Building, UNAM
+</div>
