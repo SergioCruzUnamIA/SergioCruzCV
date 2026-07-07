@@ -7,7 +7,7 @@ nav: true
 nav_order: 8
 ---
 
-[🇪🇸 Leer en español](/es/oferta-de-trabajo/)
+[🇪🇸 Leer en español]({{ "/es/oferta-de-trabajo/" | relative_url }})
 
 I offer the following collaboration opportunities for students and future researchers:
 

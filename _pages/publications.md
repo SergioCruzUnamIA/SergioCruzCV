@@ -9,7 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-[🇪🇸 Leer en español](/es/investigacion/)
+[🇪🇸 Leer en español]({{ "/es/investigacion/" | relative_url }})
 
 <!-- Bibsearch Feature -->
 
