@@ -6,7 +6,7 @@ description: Oportunidades de colaboración para estudiantes y futuros investiga
 nav: false
 ---
 
-[🇬🇧 Read in English](/prospective-students/)
+[🇬🇧 Read in English]({{ "/prospective-students/" | relative_url }})
 
 Ofrezco las siguientes oportunidades de colaboración para estudiantes y futuros investigadores:
 

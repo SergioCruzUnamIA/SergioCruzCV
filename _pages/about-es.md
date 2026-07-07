@@ -26,11 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-[🇬🇧 Read in English](/)
+[🇬🇧 Read in English]({{ "/" | relative_url }})
 
 Mi interés se centra en el Aprendizaje Profundo y Visión por Computadora/Detección de Objetos. Me interesa avanzar hacia temas más profundos como la Segmentación de Imágenes, el Reconocimiento de Actividades y la Inteligencia Artificial en general. Quiero aplicar el Aprendizaje Profundo a problemas de actividad diaria en la vida de las personas y mejorar su calidad de vida.
 
-Ver también: [docencia](/es/docencia/), [investigación](/es/investigacion/), [horas de oficina](/es/horas-de-oficina/), y [oferta de trabajo](/es/oferta-de-trabajo/) para estudiantes.
+Ver también: [docencia]({{ "/es/docencia/" | relative_url }}), [investigación]({{ "/es/investigacion/" | relative_url }}), [horas de oficina]({{ "/es/horas-de-oficina/" | relative_url }}), y [oferta de trabajo]({{ "/es/oferta-de-trabajo/" | relative_url }}) para estudiantes.
 
 #### Experiencia Laboral
 

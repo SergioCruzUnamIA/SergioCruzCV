@@ -6,7 +6,7 @@ description: Cursos impartidos en la Universidad Nacional Autónoma de México (
 nav: false
 ---
 
-[🇬🇧 Read in English](/teaching/)
+[🇬🇧 Read in English]({{ "/teaching/" | relative_url }})
 
 Estoy dando tres cursos este semestre en la Universidad Nacional Autónoma de México (UNAM). Por favor, inscribirse a los cursos por medio de la página de la universidad. Si tienes dudas específicas acerca de los temas dados en los cursos, por favor mandame un correo, y te responderé a la brevedad posible.
 

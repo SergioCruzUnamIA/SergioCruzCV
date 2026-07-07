@@ -6,7 +6,7 @@ description: Horas de oficina en la Universidad Nacional Autónoma de México (U
 nav: false
 ---
 
-[🇬🇧 Read in English](/office-hours/)
+[🇬🇧 Read in English]({{ "/office-hours/" | relative_url }})
 
 Las horas de oficina son de Lunes a Miércoles, 11am–3pm.
 

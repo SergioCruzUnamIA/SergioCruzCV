@@ -26,11 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-[🇪🇸 Leer en español](/es/)
+[🇪🇸 Leer en español]({{ "/es/" | relative_url }})
 
 My interests center on Deep Learning and Computer Vision / Object Detection. I'm interested in advancing toward deeper topics such as Image Segmentation, Activity Recognition, and Artificial Intelligence in general. I want to apply Deep Learning to everyday problems in people's lives and improve their quality of life.
 
-Also see: [teaching](/teaching/), [office hours](/office-hours/), and [opportunities for students](/prospective-students/).
+Also see: [teaching]({{ "/teaching/" | relative_url }}), [office hours]({{ "/office-hours/" | relative_url }}), and [opportunities for students]({{ "/prospective-students/" | relative_url }}).
 
 #### Work Experience
 
