@@ -45,6 +45,7 @@ With over 2 years of experience as a Senior Engineer at ASTRI, I improved charac
 - Printed character detection with PyTorch and YOLO. Increased character detection accuracy by 15% through this implementation.
 - Printed character segmentation with PyTorch and YOLO. Reduced image segmentation time by 20%. Improved quality control and reduced training time.
 - Designed and filed a patent for generating personalized data by combining Generative AI and Natural Language Processing (NLP) technologies.
+
 </div>
 
 <div class="info-card" markdown="1">
