@@ -4,7 +4,7 @@ permalink: /office-hours/
 title: office hours
 description: Office hours at the Universidad Nacional Autónoma de México (UNAM).
 nav: true
-nav_order: 7
+nav_order: 4
 ---
 
 [🇪🇸 Leer en español]({{ "/es/horas-de-oficina/" | relative_url }})

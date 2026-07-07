@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Courses taught at the Universidad Nacional Autónoma de México (UNAM), Facultad de Ciencias.
 nav: true
-nav_order: 6
+nav_order: 1
 ---
 
 [🇪🇸 Leer en español]({{ "/es/docencia/" | relative_url }})
