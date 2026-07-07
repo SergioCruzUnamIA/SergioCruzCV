@@ -59,6 +59,9 @@ jobs:
       - name: Install JS deps 📦
         run: npm ci
 
+      - name: Fetch upstream al-folio baseline tag (v0.16.3) 🏷️
+        run: git fetch https://github.com/alshedivat/al-folio.git refs/tags/v0.16.3:refs/tags/v0.16.3
+
       - name: Prepare baseline worktree (v0.16.3) 🧱
         run: |
           git worktree add ../al-folio-baseline v0.16.3
