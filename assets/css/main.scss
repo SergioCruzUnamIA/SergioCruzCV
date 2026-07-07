@@ -1,0 +1,78 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/*******************************************************************************
+ * Local site customizations (plain CSS, not a _sass partial - the starter
+ * repo isn't allowed to own _sass; see test/style_contract.js). These rules
+ * come last so they win the cascade over the gem's own _themes.scss values.
+ ******************************************************************************/
+
+:root {
+  --global-theme-color: #0f766e;
+  --global-hover-color: #0f766e;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #2dd4bf;
+  --global-hover-color: #2dd4bf;
+}
+
+// Profile photo: softer, card-like presentation
+.profile img {
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+// Publications: card-style entries with a theme-color top accent
+.publications ol.bibliography > li {
+  background-color: var(--global-card-bg-color);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border-top: 3px solid var(--global-theme-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+// Teaching course cards: theme-color top accent to match publications
+.course-item {
+  border-top: 3px solid var(--global-theme-color);
+}
+
+// Navbar: pill-style active item
+.navbar .nav-item.active .nav-link {
+  background-color: var(--global-theme-color);
+  color: var(--global-hover-text-color) !important;
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+}

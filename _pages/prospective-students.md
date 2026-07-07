@@ -4,7 +4,7 @@ permalink: /prospective-students/
 title: prospective students
 description: Opportunities for students and future researchers.
 nav: true
-nav_order: 8
+nav_order: 3
 ---
 
 [🇪🇸 Leer en español]({{ "/es/oferta-de-trabajo/" | relative_url }})
