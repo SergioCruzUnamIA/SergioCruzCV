@@ -9,6 +9,8 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+[🇪🇸 Leer en español](/es/investigacion/)
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}

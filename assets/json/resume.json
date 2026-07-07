@@ -1,221 +1,149 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Sergio Rodolfo Cruz Gomez",
+    "label": "Professor of Computer Science",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "sergio.cruz@ciencias.unam.mx",
+    "phone": "5556225429",
+    "summary": "Professor of Computer Science at the Universidad Nacional Autónoma de México (UNAM), working on Deep Learning and Computer Vision / Object Detection.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "130, Edificio de Matemáticas",
+      "postalCode": "",
+      "city": "Mexico City",
+      "countryCode": "MX",
+      "region": "Ciudad de México"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "sercruzg",
+        "url": "https://github.com/sercruzg"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "sergiocruzcv",
+        "url": "https://www.linkedin.com/in/sergiocruzcv/"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
-    },
-    {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
+      "name": "Universidad Nacional Autónoma de México (UNAM)",
+      "position": "Professor",
+      "location": "Mexico City, Mexico",
+      "startDate": "2023-11-01",
+      "endDate": "",
+      "summary": "Teaching Artificial Intelligence, Pattern Recognition and Machine Learning, and Introduction to Computer Science at the Facultad de Ciencias.",
       "highlights": []
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Hong Kong Applied Science and Technology Research Institute (ASTRI)",
+      "position": "Senior Engineer",
+      "location": "Hong Kong",
+      "startDate": "2021-06-01",
+      "endDate": "2023-11-01",
+      "summary": "Improved character recognition accuracy by implementing a Deep Learning model for English and Chinese OCR, resulting in greater efficiency and customer satisfaction.",
+      "highlights": [
+        "Printed character detection with PyTorch and YOLO. Increased character detection accuracy by 15% through this implementation.",
+        "Printed character segmentation with PyTorch and YOLO. Reduced image segmentation time by 20%. Improved quality control and reduced training time.",
+        "Designed and filed a patent for generating personalized data by combining Generative AI and Natural Language Processing (NLP) technologies."
+      ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
+      "institution": "City University of Hong Kong",
+      "location": "Hong Kong",
+      "url": "",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "startDate": "2014-09-01",
+      "endDate": "2021-03-01",
       "score": "",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "highlights": ["Thesis: Hand Disambiguation in the Egocentric Perspective"]
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "Benemérita Universidad Autónoma de Puebla",
+      "location": "Puebla, Mexico",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "MSc",
+      "startDate": "2012-09-01",
+      "endDate": "2014-08-01",
+      "score": "",
+      "courses": [],
+      "highlights": ["Thesis: Gait Analysis of the Inferior Articulations of Healthy People and with Locomotion Problems"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
+      "institution": "Benemérita Universidad Autónoma de Puebla",
+      "location": "Puebla, Mexico",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "BEng",
+      "startDate": "2006-09-01",
+      "endDate": "2012-08-01",
+      "score": "",
+      "courses": [],
+      "highlights": ["Exchange program at Bishop's University, Sherbrooke, Canada (2010-2011)"]
     }
   ],
+  "awards": [],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Hand Disambiguation using Attention Neural Networks in the Egocentric Perspective",
+      "publisher": "International Conference on Digital Image Processing (ICDIP)",
+      "releaseDate": "2021-05-01",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11878/2599666/Hand-disambiguation-using-attention-neural-networks-in-the-egocentric-perspective/10.1117/12.2599666.short",
+      "summary": ""
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Is that my hand? An egocentric dataset for hand disambiguation",
+      "publisher": "Image and Vision Computing",
+      "releaseDate": "2019-06-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S026288561930085X",
+      "summary": ""
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Hand Detection Using Zoomed Neural Networks",
+      "publisher": "International Conference on Image Analysis and Processing (ICIAP)",
+      "releaseDate": "2019-09-01",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-30645-8_11",
+      "summary": ""
+    },
+    {
+      "name": "Hand Detection using Deformable Part Models on an Egocentric Perspective",
+      "publisher": "Digital Image Computing: Techniques and Applications (DICTA)",
+      "releaseDate": "2018-12-01",
+      "url": "https://ieeexplore.ieee.org/document/8615781",
+      "summary": ""
+    },
+    {
+      "name": "Gait Analysis of the Inferior Articulations of Healthy People and with Locomotion Problems",
+      "publisher": "Mexican Conference on Pattern Recognition (MCPR)",
+      "releaseDate": "2014-06-01",
+      "url": "https://rcs.cic.ipn.mx/2014_71/Gait%20Analysis%20of%20the%20Inferior%20Articulations%20of%20Healthy%20People%20and%20with%20Locomotion%20Problems.html",
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Deep Learning",
+      "level": "",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch", "YOLO", "Computer Vision", "Object Detection", "OCR"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Natural Language Processing",
+      "level": "",
+      "icon": "fa-solid fa-comments",
+      "keywords": ["Generative AI", "NLP"]
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
-    }
-  ]
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": []
 }

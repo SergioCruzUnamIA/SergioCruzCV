@@ -2,14 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses taught at the Universidad Nacional Autónoma de México (UNAM), Facultad de Ciencias.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+[🇪🇸 Leer en español](/es/docencia/)
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+I teach three courses each semester at UNAM. Please enroll through the university's course registration system. If you have specific questions about the topics covered, email me and I'll respond as soon as possible.
 
 {% include courses.liquid %}
